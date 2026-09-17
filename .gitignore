@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / tooling
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+prediction_log.csv
+
+# Local datasets - do not commit medical source data
+/data/TN5000_forReview/
+/data/TN5000_LeakageSafe/
+/data/TN5000_NoduleCrop/
+/data/Updated_data/
+*.xml
+
+# Generated analytical raw table - keep local unless intentionally published
+/data/TN5000_Analysis/thyroid_features.csv
+
+# Local model/checkpoints created during experiments
+*.h5
+checkpoints/
+
+# Secrets / local configuration
+.env
+*.env
