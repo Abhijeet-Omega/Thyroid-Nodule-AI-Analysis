@@ -1,0 +1,14 @@
+TN5000 DUPLICATE & DATA-LEAKAGE CHECK
+
+Total images: 5000
+Unique image hashes: 4874
+Duplicate groups: 119
+Images in duplicate groups: 245
+
+Duplicate groups within one split: 54
+Duplicate groups crossing train/val/test: 65
+Duplicate groups not in official split files: 0
+
+IMPORTANT:
+A cross-split duplicate is a potential data-leakage issue.
+No files in the original dataset were modified.

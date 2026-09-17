@@ -1,0 +1,33 @@
+TN5000 CROSS-SPLIT DUPLICATE ANALYSIS
+============================================================
+
+Total images: 5000
+Duplicate groups: 119
+Cross-split duplicate groups: 65
+
+AFFECTED IMAGES BY SPLIT
+------------------------------
+train: 66
+val: 26
+test: 42
+unassigned: 0
+
+AFFECTED ANNOTATIONS BY CLASS
+------------------------------
+Malignant: 94
+Benign: 40
+
+ANNOTATION CONSISTENCY
+------------------------------
+Groups with identical class + bounding-box annotations: 65
+Groups with conflicting class annotations: 0
+
+ANNOTATION FILE STATUS
+------------------------------
+Groups with annotation errors: 0
+Groups with missing annotations: 0
+
+INTERPRETATION
+------------------------------
+This analysis confirms whether exact duplicate images crossing train/validation/test also have identical labels and bounding boxes.
+Do NOT delete or move images based only on this report. Use the results to decide the leakage-safe evaluation strategy.

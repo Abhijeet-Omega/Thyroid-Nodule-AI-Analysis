@@ -1,0 +1,32 @@
+{
+  "images": 5000,
+  "valid_images": 5000,
+  "corrupt_images": 0,
+  "xml_annotations": 5000,
+  "missing_xml": 0,
+  "missing_images": 0,
+  "invalid_xml": 0,
+  "invalid_boxes": 0,
+  "duplicate_groups": 119,
+  "labels": {
+    "0": 1426,
+    "1": 3574
+  },
+  "splits": {
+    "test": 1000,
+    "train": 3500,
+    "trainval": 4000,
+    "val": 500
+  },
+  "dimensions": {
+    "718x500": 3975,
+    "818x628": 649,
+    "498x429": 205,
+    "439x368": 124,
+    "919x646": 24,
+    "492x391": 3,
+    "501x458": 9,
+    "466x349": 6,
+    "677x432": 5
+  }
+}
