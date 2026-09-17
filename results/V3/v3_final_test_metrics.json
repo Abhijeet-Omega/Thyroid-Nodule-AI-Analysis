@@ -1,0 +1,16 @@
+{
+    "model": "TN5000 EfficientNetB0 V3 Nodule Crop",
+    "threshold": 0.55,
+    "accuracy": 0.762,
+    "precision": 0.9409660107334525,
+    "sensitivity_recall": 0.719562243502052,
+    "specificity": 0.8773234200743495,
+    "f1_score": 0.8155038759689922,
+    "balanced_accuracy": 0.7984428317882007,
+    "roc_auc": 0.8948377483612101,
+    "true_negative": 236,
+    "false_positive": 33,
+    "false_negative": 205,
+    "true_positive": 526,
+    "test_images": 1000
+}
